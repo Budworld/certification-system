@@ -1,0 +1,11 @@
+ExamScheduleUID,CandidateNumber,Score,Status
+1,C00142,85,passed
+1,C00143,70,passed
+1,C00144,60,passed
+1,C00145,40,failed
+1,C00146,55,passed
+1,C00147,48,failed
+1,C00148,77,passed
+1,C00149,90,passed
+1,C00150,33,failed
+1,C00151,69,passed
