@@ -10,7 +10,7 @@ This project is a **personal module** of a larger certification center managemen
   - Manual entry through UI.
   - Bulk import via CSV file.
 
-- **5-stage certificate issuing workflow:**
+- **4-stage certificate issuing workflow:**
   1. **PROCESSING** – Data is newly added and pending printing.
   2. **PRINTED** – Certificate has been printed, confirmed by the user.
   3. **READY FOR PICKUP** – After printing, an email is sent with the attached PDF certificate, then status updates.
