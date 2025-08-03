@@ -1,37 +1,23 @@
 # certification-system
-## 📌 Project: Certification Module – Personal Subproject of Certification Center System
+## 📄 Certificate Issuance Module (Mar 2025 – Jul 2025)
 
-**⏱ Duration:** March 2025 – July 2025
+This project is a personal module within a larger system for managing national test centers.
 
-This project is a **personal module** of a larger certification center management system. It focuses on handling certificate issuing in a clear, step-by-step process for each candidate or test class.
+### 🚀 Features
+- Input and manage certificate data with exam results (manual entry or CSV import)
+- Certificate issuance flow with 5 statuses:
+  - **PROCESSING**: Newly created certificate
+  - **PRINTED**: Certificate has been printed
+  - **READY FOR PICKUP**: Email (with PDF certificate attached) is sent to the candidate
+  - **ISSUED**: Candidate has received the certificate
+- Batch processing for entire classes or single test sessions
 
-### 🎯 Key Features:
-- Input exam results and certificate data in 2 ways:
-  - Manual entry through UI.
-  - Bulk import via CSV file.
+### ⚙️ Tech Stack
+- **Frontend:** ReactJS, TypeScript, Ant Design (Antd)
+- **Backend:** NestJS, MSSQL
+- **Architecture:** 3-layer design (UI → Controller → Service)
+- **Security:** Token authentication & secure key handling
+- **Others:** Integrated email service for notifications and PDF delivery
 
-- **4-stage certificate issuing workflow:**
-  1. **PROCESSING** – Data is newly added and pending printing.
-  2. **PRINTED** – Certificate has been printed, confirmed by the user.
-  3. **READY FOR PICKUP** – After printing, an email is sent with the attached PDF certificate, then status updates.
-  4. **ISSUED** – When the receiver confirms they have picked up the certificate.
-
-- Actions can be executed for individual candidates or by **exam sessions / classes**.
-
----
-
-### 🛠 Tech Stack:
-- **Frontend:** ReactJS, Ant Design (Antd), TypeScript, JavaScript
-- **Backend:** NestJS, MS SQL Server
-- **Architecture:** Clean 3-layer (UI → Controller → Service)
-
----
-
-### 🔒 Other Highlights:
-- **Security:** Use of personal keys, secure certificate PDF delivery via tokenized URLs.
-- **Scalable Design:** Aligned with real-world workflows in educational organizations.
-
----
-
-### 🔗 GitHub:
+### 🔗 GitHub Repository
 [https://github.com/Budworld/certification-system](https://github.com/Budworld/certification-system)
